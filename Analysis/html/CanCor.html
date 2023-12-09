@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="97ed78c5-e5ca-4d15-bfa7-4c9310cfd1c3" data-root-id="2684"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2940">
+          {"67a4a801-7cbb-4b96-b29e-2a6555976f49":{"roots":{"references":[{"attributes":{},"id":"2737","type":"Selection"},{"attributes":{},"id":"2704","type":"WheelZoomTool"},{"attributes":{"data":{"x":[628,467,12160,13782,882,60,213,235,139,69,119,269,263,921,530,101,115,654,538,1106,422,1583,601,1690,2360,1004,547,809,678,945,798],"y":{"__ndarray__":"AAAAAAAAAADkxP/U2xKtPs12grCICic/Pg5af7aHUT9rL3qUYr9ZP38tRfaac2c/cdRNLOdAfD9yBWkY7fh1PzEcQAvzPWY/FEuFmJ5AZz/m4/r1JV9+PxQgyFiulJo/jqoTZ1Vnmj98StUcQD14P7T2y8MLY2M/xdU3usQaXT+4nyfcEZVTP14cuE+jOkU/WLLnEjrwbD+cVZ6KbveEP/iY+2+rbH4/bukH/5wLcj8qPwRBjMVxPwlz9fBXp4U/WTo5Uo35sj/f/hy/aAKOPxQLEys0MGs/9xco+w8Zaz8NqeM54uiDP7JsnpKptog/7PLdHGPzjz8=","dtype":"float64","order":"little","shape":[31]}},"selected":{"id":"2737"},"selection_policy":{"id":"2736"}},"id":"2717","type":"ColumnDataSource"},{"attributes":{"source":{"id":"2717"}},"id":"2721","type":"CDSView"},{"attributes":{},"id":"2707","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#0575a8"},"line_alpha":{"value":0.1},"line_color":{"value":"#0575a8"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"2719","type":"Scatter"},{"attributes":{"fill_color":{"value":"#eb075a"},"line_color":{"value":"#eb075a"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"2723","type":"Scatter"},{"attributes":{"months":[0,6]},"id":"2727","type":"MonthsTicker"},{"attributes":{"data_source":{"id":"2717"},"glyph":{"id":"2718"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2719"},"selection_glyph":null,"view":{"id":"2721"}},"id":"2720","type":"GlyphRenderer"},{"attributes":{"align":"center","text":"Cancelled Flights vs. New Corona Cases"},"id":"2685","type":"Title"},{"attributes":{"data":{"x":[189,301,5808,5435,434,77,262,220,42,16,91,277,75,700,65,101,36,287,418,477,406,246,168,490,3222,1482,1068,1221,1553,2413,1459],"y":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAN3Fz1383HE/axXFBJkthz8+B+RK5B5qPyRO+gAq+1E/09j6WXpsUj9doJn7whVPP+ZfOqIWYVQ/b+YgmkHVZD9BXGZTKCx+P/vI+3A3JJE/1WK4k+yhlj/ktealTNmGPx4JEsVThIc/ZzoEQN2ZgT+ur/CoUnBlP/3wjy6E1EQ/8yW4IXhEXj95a+ZvhYN6PyJG/AU1nX4/7vGm6zuHez9hMlUwKqmBPx7w7diCf6M/hrz8OAnasD978SQs/Ql4P0WydIDayW0/x2ja8gyUgT+mwUCVIAKNP5QMOPLcsoE/3ehYeeBNhj8=","dtype":"float64","order":"little","shape":[31]}},"selected":{"id":"2739"},"selection_policy":{"id":"2738"}},"id":"2722","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#0575a8"},"line_color":{"value":"#0575a8"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"2718","type":"Scatter"},{"attributes":{"overlay":{"id":"2709"}},"id":"2705","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#eb075a"},"line_alpha":{"value":0.1},"line_color":{"value":"#eb075a"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"2724","type":"Scatter"},{"attributes":{"axis_label":"Num. New Corona Cases","formatter":{"id":"2735"},"ticker":{"id":"2700"}},"id":"2699","type":"LinearAxis"},{"attributes":{},"id":"2703","type":"PanTool"},{"attributes":{"source":{"id":"2722"}},"id":"2726","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2703"},{"id":"2704"},{"id":"2705"},{"id":"2706"},{"id":"2707"},{"id":"2708"}]},"id":"2710","type":"Toolbar"},{"attributes":{"start":60},"id":"2687","type":"DataRange1d"},{"attributes":{"axis_label":"Num. Cancelled Flights","formatter":{"id":"2733"},"ticker":{"id":"2727"}},"id":"2695","type":"LinearAxis"},{"attributes":{"label":{"value":"New York"},"renderers":[{"id":"2725"}]},"id":"2731","type":"LegendItem"},{"attributes":{"data_source":{"id":"2722"},"glyph":{"id":"2723"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2724"},"selection_glyph":null,"view":{"id":"2726"}},"id":"2725","type":"GlyphRenderer"},{"attributes":{"click_policy":"hide","items":[{"id":"2730"},{"id":"2731"}],"location":[5,400]},"id":"2729","type":"Legend"},{"attributes":{"below":[{"id":"2695"}],"center":[{"id":"2698"},{"id":"2702"}],"left":[{"id":"2699"}],"plot_width":900,"renderers":[{"id":"2720"},{"id":"2725"}],"right":[{"id":"2729"}],"title":{"id":"2685"},"toolbar":{"id":"2710"},"toolbar_location":"left","x_range":{"id":"2687"},"x_scale":{"id":"2691"},"y_range":{"id":"2689"},"y_scale":{"id":"2693"}},"id":"2684","subtype":"Figure","type":"Plot"},{"attributes":{"label":{"value":"California"},"renderers":[{"id":"2720"}]},"id":"2730","type":"LegendItem"},{"attributes":{},"id":"2706","type":"SaveTool"},{"attributes":{},"id":"2708","type":"HelpTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2709","type":"BoxAnnotation"},{"attributes":{},"id":"2700","type":"BasicTicker"},{"attributes":{"start":0},"id":"2689","type":"DataRange1d"},{"attributes":{},"id":"2691","type":"LinearScale"},{"attributes":{},"id":"2736","type":"UnionRenderers"},{"attributes":{"axis":{"id":"2699"},"dimension":1,"ticker":null},"id":"2702","type":"Grid"},{"attributes":{},"id":"2693","type":"LinearScale"},{"attributes":{},"id":"2733","type":"BasicTickFormatter"},{"attributes":{},"id":"2735","type":"BasicTickFormatter"},{"attributes":{},"id":"2738","type":"UnionRenderers"},{"attributes":{},"id":"2739","type":"Selection"},{"attributes":{"axis":{"id":"2695"},"ticker":null},"id":"2698","type":"Grid"}],"root_ids":["2684"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2940').textContent;
+                  var render_items = [{"docid":"67a4a801-7cbb-4b96-b29e-2a6555976f49","root_ids":["2684"],"roots":{"2684":"97ed78c5-e5ca-4d15-bfa7-4c9310cfd1c3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

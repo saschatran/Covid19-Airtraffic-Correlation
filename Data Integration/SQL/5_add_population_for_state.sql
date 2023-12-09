@@ -1,0 +1,57 @@
+--Add Population for State since we dont have this Value in our Datasheets but it's necessary for our analysis
+
+ALTER TABLE STATE 
+ADD Column Citizens integer;
+
+UPDATE State SET Citizens = 732672 WHERE state = 'AK';
+UPDATE State SET Citizens = 5040000 WHERE state = 'AL';
+UPDATE State SET Citizens = 3026000 WHERE state = 'AR';
+UPDATE State SET Citizens = 7276000 WHERE state = 'AZ';
+UPDATE State SET Citizens = 39240000 WHERE state = 'CA';
+UPDATE State SET Citizens = 5812000 WHERE state = 'CO';
+UPDATE State SET Citizens =3606000 WHERE state = 'CT';
+UPDATE State SET Citizens = 1003000 WHERE state = 'DE';
+UPDATE State SET Citizens = 21780000 WHERE state = 'FL';
+UPDATE State SET Citizens = 10800000 WHERE state = 'GA';
+UPDATE State SET Citizens = 1442000 WHERE state = 'HI';
+UPDATE State SET Citizens = 3193000 WHERE state = 'IA';
+UPDATE State SET Citizens = 1901000 WHERE state = 'ID';
+UPDATE State SET Citizens = 12670000 WHERE state = 'IL';
+UPDATE State SET Citizens = 331900000 WHERE state = 'IN';
+UPDATE State SET Citizens = 2935000 WHERE state = 'KS';
+UPDATE State SET Citizens = 4509000 WHERE state = 'KY';
+UPDATE State SET Citizens = 4624000 WHERE state = 'LA';
+UPDATE State SET Citizens = 6985000 WHERE state = 'MA';
+UPDATE State SET Citizens = 6165000 WHERE state = 'MD';
+UPDATE State SET Citizens = 1372000 WHERE state = 'ME';
+UPDATE State SET Citizens = 10050000 WHERE state = 'MI';
+UPDATE State SET Citizens = 5707000 WHERE state = 'MN';
+UPDATE State SET Citizens = 6168000 WHERE state = 'MO';
+UPDATE State SET Citizens = 2950000 WHERE state = 'MS';
+UPDATE State SET Citizens = 1104000 WHERE state = 'MT';
+UPDATE State SET Citizens = 10550000 WHERE state = 'NC';
+UPDATE State SET Citizens = 774948 WHERE state = 'ND';
+UPDATE State SET Citizens = 1964000 WHERE state = 'NE';
+UPDATE State SET Citizens = 1389000 WHERE state = 'NH';
+UPDATE State SET Citizens = 9267000 WHERE state = 'NJ';
+UPDATE State SET Citizens = 2116000 WHERE state = 'NM';
+UPDATE State SET Citizens = 3144000 WHERE state = 'NV';
+UPDATE State SET Citizens = 19840000 WHERE state = 'NY';
+UPDATE State SET Citizens = 11780000 WHERE state = 'OH';
+UPDATE State SET Citizens = 3987000 WHERE state = 'OK';
+UPDATE State SET Citizens = 4246000 WHERE state = 'OR';
+UPDATE State SET Citizens = 12960000 WHERE state = 'PA';
+UPDATE State SET Citizens = 3264000 WHERE state = 'PR';
+UPDATE State SET Citizens = 1096000 WHERE state = 'RI';
+UPDATE State SET Citizens = 5191000 WHERE state = 'SC';
+UPDATE State SET Citizens = 895376 WHERE state = 'SD';
+UPDATE State SET Citizens = 6975000 WHERE state = 'TN';
+UPDATE State SET Citizens = 8642000 WHERE state = 'VA';
+UPDATE State SET Citizens = 29530000 WHERE state = 'TX';
+UPDATE State SET Citizens = 3338000 WHERE state = 'UT';
+UPDATE State SET Citizens = 105870 WHERE state = 'VI';
+UPDATE State SET Citizens = 645570 WHERE state = 'VT';
+UPDATE State SET Citizens = 7739000 WHERE state = 'WA';
+UPDATE State SET Citizens = 5896000 WHERE state = 'WI';
+UPDATE State SET Citizens = 1783000 WHERE state = 'WV';
+UPDATE State SET Citizens = 578803 WHERE state = 'WY';

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+    <title> Graphics on the impact of the COVID-19 pandemic on the U.S. air traffic.</title>
+
+    <style>
+        h1 {
+            margin-top: 5%;
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            margin-top: 5%;
+            text-align: center;
+            color: white;
+        }
+
+        .block {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+
+        .block2 {
+            display: inline-block;
+            width: 600px;
+            height: 300px;
+            background-color: blue;
+            border: 1px transparent;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+
+        .block2 h3 {
+            margin-top: 5%;
+            text-align: center;
+            color: white;
+        }
+
+        .block img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .container  {
+            text-align: center;
+            margin-top: 1%;
+        }
+        
+        body {
+            background: url(usBackground.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1> The impact of the COVID-19 pandemic on the U.S. air traffic. </h1>
+    <div class="container"><div class="block2">
+    <h3> In the following all plots are displayed that were used for the analysis of the Database project.
+        <br>
+        Click on the boxes to see the plots.
+        <br>
+        <br>
+        The line plots are interactive:  
+        <br>
+        Click on the color in the legend to make a line disappear.
+        <br>
+        You can also zoom in to a certain area or scroll.
+        <br>
+        The toolbar should be on the left side of the plot below the rainbowisch icon.
+        <br>
+    </h3></div>
+    </div>
+    
+    
+    <h2> Heatmaps </h2>
+    <div class="container">
+      <a href="Pictures.html"><div class="block"><h3>All Heatmaps. </h3>
+          <img src="CoronaHeatmap.png">
+      </div></a> 
+    </div>
+
+    <h2> Line Plots </h2>
+    <div class="container">
+        <a href="IframeNewCoronaCases.html"><div class="block">
+          <h3> Number of New Corona Cases </h3>
+          <img src="NewCoronaCases.png">
+        </div></a>
+        <a href="IframeCancelled.html"><div class="block">
+          <h3> Number of Cancelled Flights </h3>
+          <img src="CancelledFlights.png">
+        </div></a>
+        <a href="IframePerformedFlights.html"><div class="block">
+         <h3>Number of Performed Flights</h3>
+          <img src="Performed Flights.png">
+        </div></a>
+    </div>
+    <div class="container">
+        <a href="IframeVaccination.html"><div class="block">
+            <h3>Number of Vaccinations</h3>
+            <img src="Vaccination.png">
+        </div></a>
+        <a href="IframeEmployee.html"><div class="block">
+            <h3>Number of Employees</h3>
+            <img src="NumberEmployees.png">
+        </div></a>
+    </div>
+    <h2> Scatter Plots </h2>
+    <div class="container">
+        <a href="Scatter2.html"><div class="block">
+            <h3>Many Scatter Plots duh!</h3></h3>
+            <img src="g5-scatterplot-flightvscorona-q1.PNG">
+        </div></a>
+    </div>
+</body>
+</html>

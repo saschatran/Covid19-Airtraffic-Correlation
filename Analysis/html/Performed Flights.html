@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="5aadba13-3a1a-4395-8819-28c7f4521ecd" data-root-id="2065"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2374">
+          {"89bade93-4fd3-4838-ba6e-f8e448f43226":{"roots":{"references":[{"attributes":{"below":[{"id":"2076"}],"center":[{"id":"2079"},{"id":"2083"}],"left":[{"id":"2080"}],"plot_width":900,"renderers":[{"id":"2101"},{"id":"2106"},{"id":"2111"}],"right":[{"id":"2115"},{"id":"2117"}],"title":{"id":"2066"},"toolbar":{"id":"2091"},"toolbar_location":"left","x_range":{"id":"2068"},"x_scale":{"id":"2072"},"y_range":{"id":"2070"},"y_scale":{"id":"2074"}},"id":"2065","subtype":"Figure","type":"Plot"},{"attributes":{"align":"center","text":"Number of Performed Flights incl. Delays"},"id":"2066","type":"Title"},{"attributes":{"line_alpha":0.1,"line_color":"#eb07c9","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2105","type":"Line"},{"attributes":{"click_policy":"hide","items":[{"id":"2116"}],"location":[5,400],"title":"Performed flights"},"id":"2115","type":"Legend"},{"attributes":{"label":{"value":"delayed without weather delay"},"renderers":[{"id":"2111"}]},"id":"2119","type":"LegendItem"},{"attributes":{"months":[0,6]},"id":"2113","type":"MonthsTicker"},{"attributes":{"data":{"x":{"__ndarray__":"AAAwSbDPdUIAAHCbqtl1QgAAsO2k43VCAAAw2kztdUIAAFibSvd1QgAA2IfyAHZCAAAY2uwKdkIAAFgs5xR2QgAAWE3qHXZCAACwMOEndkIAADAdiTF2QgAAcG+DO3ZCAADwWytFdkIAADCuJU92QgAAcAAgWXZCAADw7MdidkIAABiuxWx2QgAAmJptdnZCAADY7GeAdkIAABg/Yop2QgAAGGBlk3ZCAABwQ1yddkIAAPAvBKd2QgAAMIL+sHZCAACwbqa6dkIAAPDAoMR2QgAAMBObznZCAACw/0LYdkIAANjAQOJ2QgAAWK3o63ZCAACY/+L1dkIAANhR3f92QgAAmNgyCXdCAADwuykTd0IAAHCo0Rx3QgAAsPrLJndCAAAw53Mwd0IAAHA5bjp3QgAAsItoRHdCAAAweBBOd0IAAFg5Dlh3QgAA2CW2YXdCAAAYeLBrd0IAAFjKqnV3QgAAWOutfndCAACwzqSId0IAADC7TJJ3QgAAcA1HnHdCAADw+e6ld0IAADBM6a93QgAAcJ7juXdCAADwiovDd0IAABhMic13QgAAmDgx13dCAADYiivhd0IAABjdJet3QgAAGP4o9HdCAABw4R/+d0IAAPDNxwd4QgAAMCDCEXhCAACwDGobeEI=","dtype":"float64","order":"little","shape":[61]},"y":[103030,99539,56747,67061,50201,80389,75646,67455,74036,87389,89057,97039,104948,120456,88380,96969,105809,103100,97501,110925,101806,102259,117848,142546,125189,124855,80024,100754,82484,120825,77141,79147,51990,8672,7263,13479,26741,25745,18660,27486,26058,41256,32737,40004,42341,44881,60400,117221,132249,117754,69790,95510,79640,113401,91471,87439,114593,116086,112959,127165,129002]},"selected":{"id":"2129"},"selection_policy":{"id":"2128"}},"id":"2108","type":"ColumnDataSource"},{"attributes":{"source":{"id":"2108"}},"id":"2112","type":"CDSView"},{"attributes":{},"id":"2085","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2090","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"2098"},"glyph":{"id":"2099"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2100"},"selection_glyph":null,"view":{"id":"2102"}},"id":"2101","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#eb075a","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2110","type":"Line"},{"attributes":{"label":{"value":"delayed"},"renderers":[{"id":"2106"}]},"id":"2118","type":"LegendItem"},{"attributes":{"click_policy":"hide","items":[{"id":"2118"},{"id":"2119"}],"location":[-130,300],"title":"Delayed flights"},"id":"2117","type":"Legend"},{"attributes":{"label":{"value":"performed"},"renderers":[{"id":"2101"}]},"id":"2116","type":"LegendItem"},{"attributes":{"start":1498867200000.0},"id":"2068","type":"DataRange1d"},{"attributes":{"start":0},"id":"2070","type":"DataRange1d"},{"attributes":{},"id":"2126","type":"UnionRenderers"},{"attributes":{},"id":"2127","type":"Selection"},{"attributes":{},"id":"2074","type":"LinearScale"},{"attributes":{"axis_label":"Date","formatter":{"id":"2121"},"ticker":{"id":"2113"}},"id":"2076","type":"DatetimeAxis"},{"attributes":{},"id":"2072","type":"LinearScale"},{"attributes":{"axis":{"id":"2076"},"ticker":null},"id":"2079","type":"Grid"},{"attributes":{},"id":"2081","type":"BasicTicker"},{"attributes":{"axis":{"id":"2080"},"dimension":1,"ticker":null},"id":"2083","type":"Grid"},{"attributes":{"axis_label":"Number of Flights","formatter":{"id":"2123"},"ticker":{"id":"2081"}},"id":"2080","type":"LinearAxis"},{"attributes":{"data":{"x":{"__ndarray__":"AAAwSbDPdUIAAHCbqtl1QgAAsO2k43VCAAAw2kztdUIAAFibSvd1QgAA2IfyAHZCAAAY2uwKdkIAAFgs5xR2QgAAWE3qHXZCAACwMOEndkIAADAdiTF2QgAAcG+DO3ZCAADwWytFdkIAADCuJU92QgAAcAAgWXZCAADw7MdidkIAABiuxWx2QgAAmJptdnZCAADY7GeAdkIAABg/Yop2QgAAGGBlk3ZCAABwQ1yddkIAAPAvBKd2QgAAMIL+sHZCAACwbqa6dkIAAPDAoMR2QgAAMBObznZCAACw/0LYdkIAANjAQOJ2QgAAWK3o63ZCAACY/+L1dkIAANhR3f92QgAAmNgyCXdCAADwuykTd0IAAHCo0Rx3QgAAsPrLJndCAAAw53Mwd0IAAHA5bjp3QgAAsItoRHdCAAAweBBOd0IAAFg5Dlh3QgAA2CW2YXdCAAAYeLBrd0IAAFjKqnV3QgAAWOutfndCAACwzqSId0IAADC7TJJ3QgAAcA1HnHdCAADw+e6ld0IAADBM6a93QgAAcJ7juXdCAADwiovDd0IAABhMic13QgAAmDgx13dCAADYiivhd0IAABjdJet3QgAAGP4o9HdCAABw4R/+d0IAAPDNxwd4QgAAMCDCEXhCAACwDGobeEI=","dtype":"float64","order":"little","shape":[61]},"y":[503313,499444,443384,476494,452744,458881,481130,393509,463154,512724,472861,475642,494160,568428,577617,611616,579924,587090,567259,517920,619510,597535,623378,623464,646101,647163,595963,630842,598007,619970,600418,569133,538042,183304,169004,222919,350075,372794,321542,350246,362336,367507,357781,314038,438710,448144,493261,537274,574116,561987,531311,553024,544135,538556,504646,473977,556111,543460,567434,559407,584411]},"selected":{"id":"2125"},"selection_policy":{"id":"2124"}},"id":"2098","type":"ColumnDataSource"},{"attributes":{},"id":"2128","type":"UnionRenderers"},{"attributes":{},"id":"2084","type":"PanTool"},{"attributes":{},"id":"2129","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2084"},{"id":"2085"},{"id":"2086"},{"id":"2087"},{"id":"2088"},{"id":"2089"}]},"id":"2091","type":"Toolbar"},{"attributes":{},"id":"2089","type":"HelpTool"},{"attributes":{},"id":"2125","type":"Selection"},{"attributes":{"overlay":{"id":"2090"}},"id":"2086","type":"BoxZoomTool"},{"attributes":{},"id":"2087","type":"SaveTool"},{"attributes":{},"id":"2088","type":"ResetTool"},{"attributes":{},"id":"2124","type":"UnionRenderers"},{"attributes":{"source":{"id":"2098"}},"id":"2102","type":"CDSView"},{"attributes":{"line_color":"#eb075a","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2109","type":"Line"},{"attributes":{"line_color":"#0575a8","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2099","type":"Line"},{"attributes":{"data_source":{"id":"2103"},"glyph":{"id":"2104"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2105"},"selection_glyph":null,"view":{"id":"2107"}},"id":"2106","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"2108"},"glyph":{"id":"2109"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2110"},"selection_glyph":null,"view":{"id":"2112"}},"id":"2111","type":"GlyphRenderer"},{"attributes":{},"id":"2121","type":"DatetimeTickFormatter"},{"attributes":{"line_alpha":0.1,"line_color":"#0575a8","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2100","type":"Line"},{"attributes":{"line_color":"#eb07c9","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2104","type":"Line"},{"attributes":{"data":{"x":{"__ndarray__":"AAAwSbDPdUIAAHCbqtl1QgAAsO2k43VCAAAw2kztdUIAAFibSvd1QgAA2IfyAHZCAAAY2uwKdkIAAFgs5xR2QgAAWE3qHXZCAACwMOEndkIAADAdiTF2QgAAcG+DO3ZCAADwWytFdkIAADCuJU92QgAAcAAgWXZCAADw7MdidkIAABiuxWx2QgAAmJptdnZCAADY7GeAdkIAABg/Yop2QgAAGGBlk3ZCAABwQ1yddkIAAPAvBKd2QgAAMIL+sHZCAACwbqa6dkIAAPDAoMR2QgAAMBObznZCAACw/0LYdkIAANjAQOJ2QgAAWK3o63ZCAACY/+L1dkIAANhR3f92QgAAmNgyCXdCAADwuykTd0IAAHCo0Rx3QgAAsPrLJndCAAAw53Mwd0IAAHA5bjp3QgAAsItoRHdCAAAweBBOd0IAAFg5Dlh3QgAA2CW2YXdCAAAYeLBrd0IAAFjKqnV3QgAAWOutfndCAACwzqSId0IAADC7TJJ3QgAAcA1HnHdCAADw+e6ld0IAADBM6a93QgAAcJ7juXdCAADwiovDd0IAABhMic13QgAAmDgx13dCAADYiivhd0IAABjdJet3QgAAGP4o9HdCAABw4R/+d0IAAPDNxwd4QgAAMCDCEXhCAACwDGobeEI=","dtype":"float64","order":"little","shape":[61]},"y":[110081,104708,58914,69027,51298,85302,81639,71284,76655,91232,93967,104488,112955,130133,94962,101657,111777,108682,105222,119477,106277,108518,126283,153358,135630,133278,83568,105046,85651,126945,82285,84616,53720,9038,7794,14949,29913,28967,20195,29507,27404,43532,34961,45593,44642,47682,65606,127565,143123,127387,73363,99586,81673,119150,97052,92614,119816,120962,119498,134598,138121]},"selected":{"id":"2127"},"selection_policy":{"id":"2126"}},"id":"2103","type":"ColumnDataSource"},{"attributes":{},"id":"2123","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"2103"}},"id":"2107","type":"CDSView"}],"root_ids":["2065"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2374').textContent;
+                  var render_items = [{"docid":"89bade93-4fd3-4838-ba6e-f8e448f43226","root_ids":["2065"],"roots":{"2065":"5aadba13-3a1a-4395-8819-28c7f4521ecd"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
