@@ -18,14 +18,14 @@ More precisely, the following three main analysis questions were made:
 
 ### Project tasks
 
-Following steps were taken to answer the above questions:
+The following steps were taken to answer the above questions:
 - Find corresponding data (~12 GB).
 - Normalize data and put it into a relational database. (We used **PostgreSql** for the queries.)
 - Analysing data using **Python**.
 
 ### Results
 
-The results can be found in the [DB_Repord.pdf](https://github.com/saschatran/DatabaseProject/blob/main/DB_Report.pdf). Additionally, if one is only interested
+The results can be found in the [DB_Report.pdf](https://github.com/saschatran/DatabaseProject/blob/main/DB_Report.pdf). Additionally, if one is only interested
 in the plots,the [allPlots.html](https://github.com/saschatran/DatabaseProject/blob/main/Analysis/html/AllPlots.html) is a small website, with an overview of
 all the plots.
 
