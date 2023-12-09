@@ -2,7 +2,10 @@
 
 This repository is about a Database Project from the lecture _Databases_ of the _University of Basel_ in the year 2022.
 
+
 ## About the Database Project
+
+### Introduction
 
 During the years 2020, 2021 and also the beginning of the year 2022, the Corona pandemic had a major impact on our daily lives. 
 
@@ -13,24 +16,19 @@ More precisely, the following three main analysis questions were made:
 - Have there been more non-weather related delays since the start of the pandemic, for example due to vaccination certificate checks or staff shortages at airports?
 - Can you see a correlation with the number of flights and Corona vaccination per state?
 
-## Folder structure
+### Project tasks
 
-Currently, the repository is structured as followed: <!-- In Linux: tree -d -->
+Following steps were taken to answer the above questions:
+- Find corresponding data (~12 GB).
+- Normalize data and put it into a relational database. (We used **PostgreSql** for the queries.)
+- Analysing data using **Python**.
 
-```bash
-├── Analysis
-│   └── html
-└── Data Integration
-    ├── Python
-    └── SQL
+### Results
 
-```
-### Analysis
-This folder contains the queries and scripts required to create plots for the analysis. All plots can be seen in the file html/AllPlots.html.
-Note: The coding required relative paths which were not adjusted on other OS, only for Windows.
+The results can be found in the [DB_Repord.pdf](https://github.com/saschatran/DatabaseProject/blob/main/DB_Report.pdf). Additionally, if one is only interested
+in the plots,the [allPlots.html](https://github.com/saschatran/DatabaseProject/blob/main/Analysis/html/AllPlots.html) is a small website, with an overview of
+all the plots.
 
-### Data Integration
-This folder consists of all the scripts needed to integrate the schema. (P1)
 
 ## Guide
 
@@ -44,6 +42,36 @@ This folder consists of all the scripts needed to integrate the schema. (P1)
 8. Run code/SQL/3_creates_Tables_with_Data.sql
 9. Run code/SQL/4_create_foreignkey_constraint.sql
 10. Run code/SQL/5_add_population_for_state.sql
+11. 
+
+## Folder structure
+
+Currently, the repository is structured as followed: <!-- In Linux: tree -d -->
+
+```bash
+├── Analysis
+│   └── html
+└── Data Integration
+    ├── Python
+    └── SQL
+```
+
+### Analysis
+
+This folder contains the queries and scripts required to create plots for the analysis. All plots can be seen in the file html/AllPlots.html.
+Note: The coding required relative paths which were not adjusted on other OS, only for Windows.
+
+### Data Integration
+
+This folder consists of all the scripts needed to integrate the schema. (P1)
+
+
+## About the Team
+
+This project was conducted in a group of 2 people. Namely:
+- Sascha Tran
+- Yannick Martin
+
 
 ## Dataset sources
 
