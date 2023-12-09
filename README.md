@@ -20,16 +20,10 @@ Currently, the repository is structured as followed: <!-- In Linux: tree -d -->
 ```bash
 ├── Analysis
 │   └── html
-│       └── Pictures
-├── Data Integration
-│   ├── Python
-│   └── SQL
-├── Presentation
-└── WorkingStation
-    ├── WorkingStationP1
-    └── WorkingStationP2
-        └── html
-            └── Pictures
+└── Data Integration
+    ├── Python
+    └── SQL
+
 ```
 ### Analysis
 This folder contains the queries and scripts required to create plots for the analysis. All plots can be seen in the file html/AllPlots.html.
