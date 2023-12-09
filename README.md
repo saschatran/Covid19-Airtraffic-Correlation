@@ -32,13 +32,6 @@ Note: The coding required relative paths which were not adjusted on other OS, on
 ### Data Integration
 This folder consists of all the scripts needed to integrate the schema. (P1)
 
-### Presentation
-This folder mainly consists of the presentation slides.
-
-### WorkingStation
-This folder consists of any drafts, code-snippets and so on that occured during the process of a milestone.
-(One could call it a junk folder, but who knows...)
-
 ## Guide
 
 1. You first need to download all the necessary datasets (total size ~14 GB). All necessary links can be found in the chapter **Dataset sources**.
@@ -63,16 +56,3 @@ This folder consists of any drafts, code-snippets and so on that occured during 
 - COVID-19 Vaccination Trends in the United States: https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Age-and-Sex-Trends-in-the-Uni/5i5k-6cmh}{https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Age-and-Sex-Trends-in-the-Uni/5i5k-6cmh
 
 
-<!-- Use this repository for your integration code and any source code created while working on your project (ad-hoc code,
-SQL queries, project files needed by external tools, etc.).
-
-- Merge your code into the main branch on the due date. 
-- Do not commit datasets!
-- Any other document (except for the dump in the final hand-in) should be handed-in via ADAM.
-
-If you have any questions regarding the project, please do not hesitate to ask during the exercise lessons or via mail
-to [raphael.waltenspuel@unibas.ch](mailto:raphael.waltenspuel@unibas.ch)!
-
-It is recommended that you first create a ```.gitignore``` file. (And exclude the "datasets" folder, for example). A useful tool for creating ```.gitignore``` files is www.gitignore.io.
-
-Feel free to update or replace this readme with a brief description of your project and goals. -->
