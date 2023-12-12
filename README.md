@@ -1,20 +1,19 @@
 # Impact of Covid-19 on air traffic in the U.S.
 
-This repository is about a Database Project from the lecture _Databases_ of the _University of Basel_ in the year 2022.
-
-
 ## About the Database Project
 
 ### Introduction
 
 During the years 2020, 2021 and also the beginning of the year 2022, the Corona pandemic had a major impact on our daily lives. 
 
-Therefore this Database Project is about the analysis of the impact of the Corona pandemic on the U.S. air traffic.
+Therefore this project is about the analysis of the impact of the Corona pandemic on the U.S. air traffic.
 More precisely, the following three main analysis questions were made:
 
 - Can we see a direct comparison, between the cancelled flights and the Corona numbers in the different US states?
 - Have there been more non-weather related delays since the start of the pandemic, for example due to vaccination certificate checks or staff shortages at airports?
 - Can you see a correlation with the number of flights and Corona vaccination per state?
+
+This repository is a database project from the lecture _Databases_ of the _University of Basel_ in the year 2022.
 
 ### Project tasks
 
@@ -31,6 +30,7 @@ all the plots.
 
 
 ## Guide
+To reproduce our relational database, follow the instructions:
 
 1. You first need to download all the necessary datasets (total size ~14 GB). All necessary links can be found in the chapter **Dataset sources**.
 2. Run code/Python/flightDataMerge.ipynb. Make sure that the path name is set correctly. (~1h)
@@ -42,7 +42,6 @@ all the plots.
 8. Run code/SQL/3_creates_Tables_with_Data.sql
 9. Run code/SQL/4_create_foreignkey_constraint.sql
 10. Run code/SQL/5_add_population_for_state.sql
-11. 
 
 ## Folder structure
 
